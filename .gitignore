@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# DevEco Studio / IntelliJ
+.idea/
+*.iml
+
+# HarmonyOS / Hvigor
+.hvigor/
+**/.hvigor/
+build/
+**/build/
+
+# HarmonyOS dependencies
+oh_modules/
+**/oh_modules/
+
+# Node dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Signing / certificates
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Build packages
+*.hap
+*.app
