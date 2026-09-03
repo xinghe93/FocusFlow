@@ -2,15 +2,115 @@
   "string": [
     {
       "name": "module_desc",
-      "value": "module description"
+      "value": "FocusFlow 学习与专注助手"
     },
     {
       "name": "EntryAbility_desc",
-      "value": "description"
+      "value": "FocusFlow 主界面"
     },
     {
       "name": "EntryAbility_label",
-      "value": "label"
+      "value": "FocusFlow"
+    },
+    {
+      "name": "home_greeting",
+      "value": "准备好开始专注学习了吗？"
+    },
+    {
+      "name": "focus_now",
+      "value": "当前专注"
+    },
+    {
+      "name": "focus_idle",
+      "value": "随时可以开始"
+    },
+    {
+      "name": "focus_idle_description",
+      "value": "当前没有进行中的专注"
+    },
+    {
+      "name": "focus_elapsed",
+      "value": "专注时间"
+    },
+    {
+      "name": "start_focus",
+      "value": "开始专注"
+    },
+    {
+      "name": "today_tasks",
+      "value": "今日任务"
+    },
+    {
+      "name": "mock_data_label",
+      "value": "模拟数据"
+    },
+    {
+      "name": "minutes_short",
+      "value": "分钟"
+    },
+    {
+      "name": "today_focus",
+      "value": "今日专注"
+    },
+    {
+      "name": "focus_minutes",
+      "value": "分钟"
+    },
+    {
+      "name": "focus_sessions",
+      "value": "专注次数"
+    },
+    {
+      "name": "device_status",
+      "value": "设备状态"
+    },
+    {
+      "name": "device_current",
+      "value": "当前设备"
+    },
+    {
+      "name": "device_sync_hint",
+      "value": "学习状态已在本设备就绪"
+    },
+    {
+      "name": "tab_home",
+      "value": "首页"
+    },
+    {
+      "name": "tab_focus",
+      "value": "专注"
+    },
+    {
+      "name": "tab_tasks",
+      "value": "任务"
+    },
+    {
+      "name": "tab_statistics",
+      "value": "统计"
+    },
+    {
+      "name": "focus_page_title",
+      "value": "专注"
+    },
+    {
+      "name": "focus_page_description",
+      "value": "专注计时设置将在下一阶段实现。"
+    },
+    {
+      "name": "tasks_page_title",
+      "value": "任务"
+    },
+    {
+      "name": "tasks_page_description",
+      "value": "任务管理将基于任务仓库接口实现。"
+    },
+    {
+      "name": "statistics_page_title",
+      "value": "统计"
+    },
+    {
+      "name": "statistics_page_description",
+      "value": "详细学习趋势将在这里展示。"
     }
   ]
 }

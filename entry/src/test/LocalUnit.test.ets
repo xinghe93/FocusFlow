@@ -1,33 +1,41 @@
 import { describe, beforeAll, beforeEach, afterEach, afterAll, it, expect } from '@ohos/hypium';
+import { MockHomeDataProvider } from '../main/ets/mock/MockHomeDataProvider';
 
 export default function localUnitTest() {
   describe('localUnitTest', () => {
-    // Defines a test suite. Two parameters are supported: test suite name and test suite function.
+    // 定义测试套件，参数分别为套件名称和套件函数。
     beforeAll(() => {
-      // Presets an action, which is performed only once before all test cases of the test suite start.
-      // This API supports only one parameter: preset action function.
+      // 在测试套件的所有用例开始前执行一次预置操作。
+      // 此 API 仅接收一个参数：预置操作函数。
     });
     beforeEach(() => {
-      // Presets an action, which is performed before each unit test case starts.
-      // The number of execution times is the same as the number of test cases defined by **it**.
-      // This API supports only one parameter: preset action function.
+      // 在每个单元测试用例开始前执行预置操作。
+      // 执行次数与通过 it 定义的测试用例数量一致。
+      // 此 API 仅接收一个参数：预置操作函数。
     });
     afterEach(() => {
-      // Presets a clear action, which is performed after each unit test case ends.
-      // The number of execution times is the same as the number of test cases defined by **it**.
-      // This API supports only one parameter: clear action function.
+      // 在每个单元测试用例结束后执行清理操作。
+      // 执行次数与通过 it 定义的测试用例数量一致。
+      // 此 API 仅接收一个参数：清理函数。
     });
     afterAll(() => {
-      // Presets a clear action, which is performed after all test cases of the test suite end.
-      // This API supports only one parameter: clear action function.
+      // 在测试套件的所有用例结束后执行一次清理操作。
+      // 此 API 仅接收一个参数：清理函数。
     });
     it('assertContain', 0, () => {
-      // Defines a test case. This API supports three parameters: test case name, filter parameter, and test case function.
+      // 定义测试用例，参数分别为用例名称、过滤参数和用例函数。
       let a = 'abc';
       let b = 'b';
-      // Defines a variety of assertion methods, which are used to declare expected boolean conditions.
+      // 使用断言方法声明预期结果。
       expect(a).assertContain(b);
       expect(a).assertEqual(a);
+    });
+    it('providesHomeSnapshotFromCentralMockData', 0, () => {
+      const snapshot = new MockHomeDataProvider().getHomeSnapshot();
+
+      expect(snapshot.tasks.length).assertEqual(3);
+      expect(snapshot.focusSummary.totalMinutes).assertEqual(75);
+      expect(snapshot.device.displayName).assertEqual('本设备');
     });
   });
 }

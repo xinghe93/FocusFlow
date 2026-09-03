@@ -3,21 +3,21 @@
   "dependencies": {
   },
   "execution": {
-    // "analyze": "normal",                     /* Define the build analyze mode. Value: [ "normal" | "advanced" | "ultrafine" | false ]. Default: "normal" */
-    // "daemon": true,                          /* Enable daemon compilation. Value: [ true | false ]. Default: true */
-    // "incremental": true,                     /* Enable incremental compilation. Value: [ true | false ]. Default: true */
-    // "parallel": true,                        /* Enable parallel compilation. Value: [ true | false ]. Default: true */
-    // "typeCheck": false,                      /* Enable typeCheck. Value: [ true | false ]. Default: false */
-    // "optimizationStrategy": "memory"         /* Define the optimization strategy. Value: [ "memory" | "performance" ]. Default: "memory" */
+    // "analyze": "normal",                     /* 构建分析模式，可选值：[ "normal" | "advanced" | "ultrafine" | false ]，默认值："normal"。 */
+    // "daemon": true,                          /* 是否启用守护进程编译，可选值：[ true | false ]，默认值：true。 */
+    // "incremental": true,                     /* 是否启用增量编译，可选值：[ true | false ]，默认值：true。 */
+    // "parallel": true,                        /* 是否启用并行编译，可选值：[ true | false ]，默认值：true。 */
+    // "typeCheck": false,                      /* 是否启用类型检查，可选值：[ true | false ]，默认值：false。 */
+    // "optimizationStrategy": "memory"         /* 优化策略，可选值：[ "memory" | "performance" ]，默认值："memory"。 */
   },
   "logging": {
-    // "level": "info"                          /* Define the log level. Value: [ "debug" | "info" | "warn" | "error" ]. Default: "info" */
+    // "level": "info"                          /* 日志级别，可选值：[ "debug" | "info" | "warn" | "error" ]，默认值："info"。 */
   },
   "debugging": {
-    // "stacktrace": false                      /* Disable stacktrace compilation. Value: [ true | false ]. Default: false */
+    // "stacktrace": false                      /* 是否输出堆栈信息，可选值：[ true | false ]，默认值：false。 */
   },
   "nodeOptions": {
-    // "maxOldSpaceSize": 8192                  /* Enable nodeOptions maxOldSpaceSize compilation. Unit M. Used for the daemon process. Default: 8192*/
-    // "exposeGC": true                         /* Enable to trigger garbage collection explicitly. Default: true*/
+    // "maxOldSpaceSize": 8192                  /* 守护进程使用的 Node.js 老生代最大内存，单位 MB，默认值：8192。 */
+    // "exposeGC": true                         /* 是否允许显式触发垃圾回收，默认值：true。 */
   }
 }

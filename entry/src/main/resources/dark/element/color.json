@@ -2,7 +2,43 @@
   "color": [
     {
       "name": "start_window_background",
-      "value": "#000000"
+      "value": "#121714"
+    },
+    {
+      "name": "app_background",
+      "value": "#121714"
+    },
+    {
+      "name": "surface_primary",
+      "value": "#FF1C241F"
+    },
+    {
+      "name": "surface_secondary",
+      "value": "#FF27332C"
+    },
+    {
+      "name": "text_primary",
+      "value": "#FFE7EFEA"
+    },
+    {
+      "name": "text_secondary",
+      "value": "#FFAAB8B0"
+    },
+    {
+      "name": "brand_primary",
+      "value": "#FF78B894"
+    },
+    {
+      "name": "on_brand",
+      "value": "#FF102018"
+    },
+    {
+      "name": "divider",
+      "value": "#FF34423A"
+    },
+    {
+      "name": "status_dot",
+      "value": "#FF78B894"
     }
   ]
 }
